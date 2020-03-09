@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:17:02:24 +0700] "GET / HTTP/1.1" 200 11488
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:17:02:27 +0700] "GET /manager/html HTTP/1.1" 401 2536
+0:0:0:0:0:0:0:1 - admin [30/Nov/2019:17:02:28 +0700] "GET /manager/html HTTP/1.1" 200 20277
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:17:02:28 +0700] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:17:02:28 +0700] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20712
+0:0:0:0:0:0:0:1 - admin [30/Nov/2019:17:02:48 +0700] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=61197DD371C4772B510FC814312F756A HTTP/1.1" 200 20282
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:17:03:01 +0700] "GET /admin-home HTTP/1.1" 200 7685
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:17:03:05 +0700] "GET /admin-building?action=LIST&page=1&maxPageItem=10&sortName=name&sortBy=ASC HTTP/1.1" 200 29105

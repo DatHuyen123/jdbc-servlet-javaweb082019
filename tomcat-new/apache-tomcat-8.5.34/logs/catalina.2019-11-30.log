@@ -1,0 +1,229 @@
+30-Nov-2019 17:01:45.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+30-Nov-2019 17:01:45.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+30-Nov-2019 17:01:45.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+30-Nov-2019 17:01:45.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Nov-2019 17:01:45.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Nov-2019 17:01:45.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Nov-2019 17:01:45.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_231\jre
+30-Nov-2019 17:01:45.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_231-b11
+30-Nov-2019 17:01:45.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Nov-2019 17:01:45.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34
+30-Nov-2019 17:01:45.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34
+30-Nov-2019 17:01:45.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\conf\logging.properties
+30-Nov-2019 17:01:45.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Nov-2019 17:01:45.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Nov-2019 17:01:45.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Nov-2019 17:01:45.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Nov-2019 17:01:45.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34
+30-Nov-2019 17:01:45.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34
+30-Nov-2019 17:01:45.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\temp
+30-Nov-2019 17:01:45.358 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+30-Nov-2019 17:01:45.359 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+30-Nov-2019 17:01:45.359 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+30-Nov-2019 17:01:46.030 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+30-Nov-2019 17:01:46.211 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Nov-2019 17:01:46.244 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:632)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+30-Nov-2019 17:01:46.246 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2019 17:01:46.251 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:632)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+30-Nov-2019 17:01:46.252 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1683 ms
+30-Nov-2019 17:01:46.312 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Nov-2019 17:01:46.313 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+30-Nov-2019 17:01:46.326 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\docs]
+30-Nov-2019 17:01:47.054 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [208] milliseconds.
+30-Nov-2019 17:01:47.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\docs] has finished in [755] ms
+30-Nov-2019 17:01:47.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\estate-jdbc-04-2019-1.0]
+30-Nov-2019 17:01:50.925 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Nov-2019 17:01:50.978 INFO [localhost-startStop-1] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+30-Nov-2019 17:01:51.033 INFO [localhost-startStop-1] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 3.0.2 (Final)
+30-Nov-2019 17:01:51.486 INFO [localhost-startStop-1] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+30-Nov-2019 17:01:52.057 INFO [localhost-startStop-1] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+30-Nov-2019 17:01:52.436 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\estate-jdbc-04-2019-1.0] has finished in [5,355] ms
+30-Nov-2019 17:01:52.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\examples]
+30-Nov-2019 17:01:53.875 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\examples] has finished in [1,437] ms
+30-Nov-2019 17:01:53.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\host-manager]
+30-Nov-2019 17:01:53.922 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\host-manager] has finished in [46] ms
+30-Nov-2019 17:01:53.923 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\manager]
+30-Nov-2019 17:01:53.997 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\manager] has finished in [74] ms
+30-Nov-2019 17:01:53.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\ROOT]
+30-Nov-2019 17:01:54.024 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\ROOT] has finished in [26] ms
+30-Nov-2019 17:01:54.031 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7779 ms
+30-Nov-2019 17:01:54.037 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:769)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:715)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+30-Nov-2019 17:01:54.038 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Nov-2019 17:01:54.040 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2019 17:01:54.041 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Nov-2019 17:01:54.085 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Nov-2019 17:01:54.087 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Nov-2019 17:01:54.088 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2019 17:01:54.088 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2019 17:02:12.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+30-Nov-2019 17:02:12.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+30-Nov-2019 17:02:12.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+30-Nov-2019 17:02:12.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Nov-2019 17:02:12.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Nov-2019 17:02:12.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Nov-2019 17:02:12.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_231\jre
+30-Nov-2019 17:02:12.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_231-b11
+30-Nov-2019 17:02:12.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Nov-2019 17:02:12.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34
+30-Nov-2019 17:02:12.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34
+30-Nov-2019 17:02:12.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\conf\logging.properties
+30-Nov-2019 17:02:12.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Nov-2019 17:02:12.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Nov-2019 17:02:12.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Nov-2019 17:02:12.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Nov-2019 17:02:12.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34
+30-Nov-2019 17:02:12.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34
+30-Nov-2019 17:02:12.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\temp
+30-Nov-2019 17:02:12.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+30-Nov-2019 17:02:12.489 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+30-Nov-2019 17:02:12.489 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+30-Nov-2019 17:02:13.130 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+30-Nov-2019 17:02:13.260 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Nov-2019 17:02:13.554 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2019 17:02:13.570 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2019 17:02:13.572 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2019 17:02:13.573 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1515 ms
+30-Nov-2019 17:02:13.610 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Nov-2019 17:02:13.610 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+30-Nov-2019 17:02:13.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\docs]
+30-Nov-2019 17:02:13.930 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\docs] has finished in [306] ms
+30-Nov-2019 17:02:13.930 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\estate-jdbc-04-2019-1.0]
+30-Nov-2019 17:02:15.842 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Nov-2019 17:02:15.881 INFO [localhost-startStop-1] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+30-Nov-2019 17:02:15.926 INFO [localhost-startStop-1] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 3.0.2 (Final)
+30-Nov-2019 17:02:16.324 INFO [localhost-startStop-1] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+30-Nov-2019 17:02:16.846 INFO [localhost-startStop-1] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+30-Nov-2019 17:02:17.215 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\estate-jdbc-04-2019-1.0] has finished in [3,285] ms
+30-Nov-2019 17:02:17.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\examples]
+30-Nov-2019 17:02:17.468 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\examples] has finished in [251] ms
+30-Nov-2019 17:02:17.469 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\host-manager]
+30-Nov-2019 17:02:17.503 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\host-manager] has finished in [34] ms
+30-Nov-2019 17:02:17.504 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\manager]
+30-Nov-2019 17:02:17.555 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\manager] has finished in [51] ms
+30-Nov-2019 17:02:17.556 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\ROOT]
+30-Nov-2019 17:02:17.578 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\ROOT] has finished in [23] ms
+30-Nov-2019 17:02:17.586 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Nov-2019 17:02:17.700 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2019 17:02:17.705 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4130 ms
+30-Nov-2019 17:02:41.204 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+30-Nov-2019 17:02:41.260 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\ROOT.war]
+30-Nov-2019 17:02:46.903 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Nov-2019 17:02:46.938 INFO [http-nio-8080-exec-6] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+30-Nov-2019 17:02:46.975 INFO [http-nio-8080-exec-6] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 3.0.2 (Final)
+30-Nov-2019 17:02:47.325 INFO [http-nio-8080-exec-6] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+30-Nov-2019 17:02:47.842 INFO [http-nio-8080-exec-6] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+30-Nov-2019 17:02:48.222 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [F:\WorkSpace_Eclipse\JAVA_WEB_ONLINE\JAVA_WEB_08_2019\workspace\estate-jdbc-04-2019\tomcat-new\apache-tomcat-8.5.34\webapps\ROOT.war] has finished in [6,962] ms
+30-Nov-2019 17:03:29.832 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Nov-2019 17:03:29.833 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Nov-2019 17:03:30.126 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2019 17:03:30.352 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Nov-2019 17:03:30.390 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [estate-jdbc-04-2019-1.0] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.canonicalize0(Native Method)
+ java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:428)
+ java.io.File.getCanonicalPath(File.java:618)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:90)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:87)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:87)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:902)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1023)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Nov-2019 17:03:30.423 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Nov-2019 17:03:30.424 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Nov-2019 17:03:30.457 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Nov-2019 17:03:30.461 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2019 17:03:30.464 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Nov-2019 17:03:30.465 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

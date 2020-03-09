@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="estate-jdbc-04-2019:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="estate-jdbc-04-2019-1.0.war">
+      <element id="artifact" artifact-name="estate-jdbc-04-2019:war exploded" />
+    </root>
+  </artifact>
+</component>
